@@ -10,6 +10,7 @@ body {
     background-color: #f9f9f9;
 }
 header {
+    
     background: linear-gradient(to right, #2c3e50, #34495e);
     color: white;
     padding: 1rem 0;
@@ -46,8 +47,18 @@ nav {
     color: #f39c12;
 }
 .hero {
-    background: linear-gradient(to bottom right, #2c3e50, #3498db);
+ background-image: C:\Users\office pc\Desktop\Surmesh;
     color: white;
+    text-align: center;
+    padding: 150px 2rem 100px;
+    margin-top: 80px;
+}
+.hero {
+    background-image: url('img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     text-align: center;
     padding: 150px 2rem 100px;
     margin-top: 80px;
@@ -235,7 +246,7 @@ footer {
         top: 60px; /* adjust if your header height differs */
         right: 0;
         height: calc(100vh - 60px);
-        background: #34495e;
+        background: image(img.png);
         flex-direction: column;
         width: 200px;
         transform: translateX(100%);
@@ -255,3 +266,10 @@ footer {
         font-size: 1.2rem;
     }
 }
+ 
+    .right-corner-div{
+                position:absolute;
+                top:10px;
+                right: 10px;
+            }
+ 
